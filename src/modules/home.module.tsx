@@ -1,6 +1,7 @@
 import RestaurantCard from "@/components/cards/RestaurantCard";
 import styles from "./style.module.css";
 import CustomButton from "@/components/buttons/CustomButton";
+import InfiniteScroll from "@/components/InfinitScroll/InfinitScroll";
 
 export default async function HomeModule() {
     return (
@@ -21,22 +22,7 @@ export default async function HomeModule() {
                 </div>
             </div>
             <div className={styles.restaurantsSection}>
-                <RestaurantCard
-                    text="The Italian Food"
-                    src="https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                />
-                <RestaurantCard
-                    text="The Italian Food"
-                    src="https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                />
-                <RestaurantCard
-                    text="The Italian Food"
-                    src="https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                />
-                <RestaurantCard
-                    text="The Italian Food"
-                    src="https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                />
+                <InfiniteScroll />
             </div>
         </div>
     );

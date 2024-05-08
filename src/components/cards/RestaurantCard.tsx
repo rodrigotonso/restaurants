@@ -4,7 +4,7 @@ import CustomButton from "../buttons/CustomButton";
 
 type RestaurantCardProps = { text: string; src: string };
 
-export default async function RestaurantCard({
+export default function RestaurantCard({
     text,
     src,
 }: RestaurantCardProps) {

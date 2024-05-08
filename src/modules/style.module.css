@@ -36,8 +36,5 @@
 .restaurantsSection {
     margin-top: 600px;
     background-color: black;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 25px;
     padding: 15px;
 }
