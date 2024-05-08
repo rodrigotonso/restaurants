@@ -6,7 +6,7 @@
 
 .videoBG {
     width: 100vw;
-    height: 600px;
+    height: 100vh;
     object-fit: cover;
     z-index: -1;
     position: fixed;
@@ -34,7 +34,7 @@
 }
 
 .restaurantsSection {
-    margin-top: 600px;
+    margin-top: 100vh;
     background-color: black;
     padding: 15px;
 }
