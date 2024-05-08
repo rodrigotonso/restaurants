@@ -1,3 +1,9 @@
+import HomeModule from "@/modules/home.module";
+
 export default function Home() {
-    return <main>home</main>;
+    return (
+        <main>
+            <HomeModule />
+        </main>
+    );
 }

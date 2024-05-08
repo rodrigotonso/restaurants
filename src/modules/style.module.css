@@ -1,0 +1,45 @@
+.heroSecction{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+}
+
+.videoBG {
+    width: 100vw;
+    height: 600px;
+    object-fit: cover;
+    z-index: -1;
+    position: fixed;
+}
+
+.heroText {
+    position: fixed;
+    text-align: center;
+    width: 100vw;
+    margin-top: 50px;
+}
+
+.heroSlogan {
+    color: #C88;
+    font-size: 22pt;
+    font-weight: bold;
+}
+
+.heroTitle {
+    margin-top: 15px;
+    color: #C88;
+    font-size: 35pt;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.ctaBttn{
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #C88;
+    border: none;
+    cursor: pointer;
+    font-size: 12pt;
+    font-weight: bold;
+    text-transform: uppercase;
+}
