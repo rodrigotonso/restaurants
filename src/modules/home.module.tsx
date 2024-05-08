@@ -1,4 +1,6 @@
+import RestaurantCard from "@/components/cards/RestaurantCard";
 import styles from "./style.module.css";
+import CustomButton from "@/components/buttons/CustomButton";
 
 export default async function HomeModule() {
     return (
@@ -15,10 +17,26 @@ export default async function HomeModule() {
                         Only the best food to the best diner
                     </div>
                     <div className={styles.heroTitle}>Restaurant APP</div>
-
-                        <button className={styles.ctaBttn}>Do a reservation</button>
-
+                    <CustomButton>Do a reservation</CustomButton>
                 </div>
+            </div>
+            <div className={styles.restaurantsSection}>
+                <RestaurantCard
+                    text="The Italian Food"
+                    src="https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                />
+                <RestaurantCard
+                    text="The Italian Food"
+                    src="https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                />
+                <RestaurantCard
+                    text="The Italian Food"
+                    src="https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                />
+                <RestaurantCard
+                    text="The Italian Food"
+                    src="https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                />
             </div>
         </div>
     );

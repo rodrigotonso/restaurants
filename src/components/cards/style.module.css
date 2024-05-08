@@ -1,0 +1,30 @@
+.cardContainer {
+    background-color: #201515;
+    border: 2pt solid #C88;
+    height: 200px;
+    flex: 1 0 calc(33.33% - 50px);
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (max-width: 400px) {
+    .cardContainer {
+        flex: 1 0 calc(50% - 50px);
+    }
+}
+
+.cardImage {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100px;
+}
+
+.cardTitle {
+    text-align: center;
+    font-size: 12pt;
+    text-transform: uppercase;
+}

@@ -33,13 +33,11 @@
     text-transform: uppercase;
 }
 
-.ctaBttn{
-    margin-top: 15px;
-    padding: 10px;
-    background-color: #C88;
-    border: none;
-    cursor: pointer;
-    font-size: 12pt;
-    font-weight: bold;
-    text-transform: uppercase;
+.restaurantsSection {
+    margin-top: 600px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 15px;
 }
