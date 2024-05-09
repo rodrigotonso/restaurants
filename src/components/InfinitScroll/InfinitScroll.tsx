@@ -42,7 +42,7 @@ export default function InfiniteScroll() {
             {data.map((item, index) => (
                 <RestaurantCard
                     key={index}
-                    text="The Italian Food"
+                    text={item.name}
                     src={item.image}
                 />
             ))}

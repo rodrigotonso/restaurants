@@ -38,3 +38,11 @@
     background-color: black;
     padding: 15px;
 }
+
+.CustomButton {
+    position: absolute;
+    top: calc(100vh - 100px);
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}

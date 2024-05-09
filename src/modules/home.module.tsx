@@ -1,7 +1,6 @@
-import RestaurantCard from "@/components/cards/RestaurantCard";
-import styles from "./style.module.css";
 import CustomButton from "@/components/buttons/CustomButton";
 import InfiniteScroll from "@/components/InfinitScroll/InfinitScroll";
+import styles from "./style.module.css";
 
 export default async function HomeModule() {
     return (
@@ -18,10 +17,12 @@ export default async function HomeModule() {
                         Only the best food to the best diner
                     </div>
                     <div className={styles.heroTitle}>Restaurant APP</div>
-                    <CustomButton>Do a reservation</CustomButton>
                 </div>
             </div>
-            <div className={styles.restaurantsSection}>
+            <div className={styles.CustomButton}>
+            <CustomButton>Do a reservation</CustomButton>
+            </div>
+            <div id="restaurantsSection" className={styles.restaurantsSection}>
                 <InfiniteScroll />
             </div>
         </div>
