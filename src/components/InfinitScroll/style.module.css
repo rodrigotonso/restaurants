@@ -1,6 +1,11 @@
 .infiniteScrollContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 25px;
+    display: grid;
+    grid-template-columns: repeat(3, calc(33.33% - 50px));
+    gap: 35px;
+    justify-content: center;
+}
+
+
+.loading {
+    width: 450px;
 }

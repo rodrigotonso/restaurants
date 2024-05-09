@@ -46,7 +46,7 @@ export default function InfiniteScroll() {
                     src={item.image}
                 />
             ))}
-            {loading && <div>Loading...</div>}
+            {loading && <div className={styles.loading}>Loading...</div>}
         </div>
     );
 }
